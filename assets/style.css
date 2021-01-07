@@ -3,5 +3,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter&family=Roboto&display=swap');
 
 .navbar {
+  color: #fff;
+  font-weight: 700;
+}
+.navbar .navbar-brand {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+  font-style: normal;
+  font-weight: bold;
+}
+
+.navbar-nav .nav-link {
   font-family: 'Inter', sans-serif;
+  font-size: 32px;
+  line-height: 44px;
+  color: #fff5e1;
+  border-bottom: 2px solid #fff5e1;
 }
