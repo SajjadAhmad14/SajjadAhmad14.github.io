@@ -29,12 +29,6 @@ body {
   border-bottom: 2px solid #fff5e1;
 }
 
-@media screen and (min-width: 1024px) {
-  .navbar-nav .nav-link {
-    border: 0;
-  }
-}
-
 .jumbotron {
   background-image: url("assets/images/35504149.jpeg");
   background-size: cover;
@@ -74,15 +68,63 @@ body {
 .jumbotron img {
   position: absolute;
   right: 0;
-  top: 200px;
+  top: 230px;
   bottom: 0;
 }
 
 .fab, .fa {
   color: #fff5e1;
-  height: 20px;
-  width: 17.99px;
+  font-size: 30px;
   margin-right: 10px;
   margin-left: 10px;
   margin-top: 5px;
+}
+
+#portfolio .heading {
+  margin: 50px 10px;
+  padding-bottom: 20px;
+  font-family: 'Crete Round', serif;
+  font-size: 40px;
+  font-weight: 400;
+  color: #1c1a19;
+  border-bottom: 1px solid #c0c0c0;
+}
+
+.grid {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 2px;
+  width: 100%;
+}
+
+.box {
+  color: #fff;
+  font-size: 150%;
+  height: 200px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #c0c0c0;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.box .btn {
+  position: relative;
+  top: 180px;
+  width: 100%;
+  border-radius: 0;
+}
+
+@media screen and (min-width: 1024px) {
+  .navbar-nav .nav-link {
+    border: 0;
+  }
+
+  .grid {
+    grid-template-rows: auto;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
 }
