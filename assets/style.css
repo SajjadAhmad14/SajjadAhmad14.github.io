@@ -29,6 +29,12 @@ body {
   border-bottom: 2px solid #fff5e1;
 }
 
+@media screen and (min-width: 1024px) {
+  .navbar-nav .nav-link {
+    border: 0;
+  }
+}
+
 .jumbotron {
   background-image: url("assets/images/35504149.jpeg");
   background-size: cover;
