@@ -5,6 +5,13 @@
 body {
   height: 100vh;
 }
+.crete-font {
+  font-family: 'Crete Round', serif;
+}
+
+.inter-font {
+  font-family: 'Inter', sans-serif;  
+}
 
 .navbar {
   background-color: #3c3a39;
@@ -100,21 +107,63 @@ body {
 
 .box {
   color: #fff;
+  position: relative;
   font-size: 150%;
-  height: 200px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-color: #c0c0c0;
+  height: 300px;
   margin-left: 0;
   margin-right: 0;
+  background: linear-gradient(
+    rgba(0, 0, 0),
+    rgba(0, 0, 0));
 }
 
-.box .btn {
+.lifestyle::before {
+  background-image: url('./images/herokuapp.com.jpg');
+}
+
+.school::before {
+  background-image: url('./images/githack.com (1).jpg');
+}
+
+.box::before {
+  position: absolute;
+  content: '';
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  opacity: 0.5;
+}
+
+.box h1, .box p{
+  color: #fff;
   position: relative;
-  top: 180px;
+  top: 15%;
+  left: 2%;
+  z-index: 1;
+  display: inline-block;
+}
+
+.box p {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.box .show-project {
+  position: relative;
+  top: 270px;
   width: 100%;
   border-radius: 0;
+  background-color: #ff6b00;
+  border: 0;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
 }
 
 @media screen and (min-width: 1024px) {
