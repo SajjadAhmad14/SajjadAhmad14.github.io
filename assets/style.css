@@ -75,8 +75,7 @@ body {
 .jumbotron img {
   position: absolute;
   right: 0;
-  top: 230px;
-  bottom: 0;
+  top: 180px;
 }
 
 .fab, .fa {
@@ -198,6 +197,45 @@ body {
   left: 50%;
   top: 100%;
   margin-top: -50px;
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 10px;
+  color: #fff;
+  border-top: 1px solid #c0c0c0;
+  padding-top: 80px;
+}
+
+.about-grid .list-head {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+}
+
+.about-grid li {
+  line-height: 44px;
+  font-size: 22px;
+}
+
+.about-grid li img {
+  position: relative;
+  left: -10px;
+  width: 18px;
+  height: 18px;
+  vertical-align: center;
+}
+
+.about-grid .list1 img{
+  width: 25px;
+  height: 25px;
+}
+
+.about-grid .list3 img{
+  width: 20px;
+  height: 20px;
 }
 
 @media screen and (min-width: 1024px) {
