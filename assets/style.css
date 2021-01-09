@@ -261,6 +261,40 @@ body {
   height: 20px;
 }
 
+#contact {
+  border-bottom: 2px solid #dfe1e6;
+}
+
+#contact div {
+  font-size: 32px;
+  line-height: 44px;
+  font-weight: 700;
+}
+
+#contact h1,a {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  border-bottom: 8px solid #0d151e;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-bottom: 10px;
+}
+
+footer .fab, footer .fa {
+  color: #505f79;
+  width: 14.17px;
+  height: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 5px;
+}
+
 @media screen and (min-width: 1024px) {
   .navbar-nav .nav-link {
     border: 0;
