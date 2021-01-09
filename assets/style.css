@@ -166,6 +166,40 @@ body {
   line-height: 24px;
 }
 
+.about-me{
+  margin-top: 20px;
+  background-color: #1c1a19;
+}
+
+.about-me h1 {
+  color: #ff6b00;
+  font-size: 60px;
+  line-height: 88px;
+}
+
+.about-me p {
+  color: #fff;
+  line-height: 24px;
+}
+
+.about-me .show-resume {
+  border-radius: 0;
+  background-color: #ff6b00;
+  border: 0;
+  margin-left: 27px;
+  margin-top: 15px;
+  font-size: 17px;
+  line-height: 27px;
+}
+
+.about-me img {
+  position: relative;
+  right: 0;
+  left: 50%;
+  top: 100%;
+  margin-top: -50px;
+}
+
 @media screen and (min-width: 1024px) {
   .navbar-nav .nav-link {
     border: 0;
