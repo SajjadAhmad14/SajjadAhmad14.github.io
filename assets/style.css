@@ -75,7 +75,7 @@ body {
 .jumbotron img {
   position: absolute;
   right: 0;
-  top: 180px;
+  top: 230px;
 }
 
 .fab, .fa {
@@ -163,6 +163,29 @@ body {
   font-weight: 700;
   font-size: 17px;
   line-height: 24px;
+}
+
+.box .show-skilss {
+  width: 100%;
+  position: relative;
+  display: flex;
+  top: 20%;
+}
+
+.show-skilss div {
+  padding: 5px;
+  z-index: 1;
+  margin-left: 5px;
+  font-size: 15px;
+  background: linear-gradient(
+    rgba(192, 192, 192),
+    rgba(192, 192, 192, 0.24));
+}
+
+.show-skilss div::before {
+  content: "";
+  opacity: 1;
+  background-color: silver;
 }
 
 .about-me{
