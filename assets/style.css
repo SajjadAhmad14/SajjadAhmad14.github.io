@@ -316,6 +316,32 @@ footer .fab, footer .fa {
   }
 }
 
+@media screen and (min-width: 768px) {
+  
+  .jumbotron img {
+    position: absolute;
+    right: 0;
+    top: 53%;
+  }
+
+  .jumbotron h2 {
+    margin-top: 20px;
+  }
+
+  .jumbotron p {
+    margin-top: 30px;
+  }
+
+  .header-icons {
+    margin-top: 20px;
+  }
+
+  .about-me img {
+    left: 52.5%;
+  }
+
+}
+
 @media screen and (min-width: 1024px) {
   .navbar-nav .nav-link {
     border: 0;
