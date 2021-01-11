@@ -86,6 +86,12 @@ body {
   margin-top: 5px;
 }
 
+.icons-for-large {
+  position: relative;
+  top: -20%;
+  left: -1%;
+}
+
 #portfolio .heading {
   margin: 50px 10px;
   padding-bottom: 20px;
@@ -342,7 +348,7 @@ footer .fab, footer .fa {
 
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 992px) {
   .navbar-nav .nav-link {
     border: 0;
   }
@@ -352,4 +358,27 @@ footer .fab, footer .fa {
     grid-template-columns: repeat(3, 1fr);
   }
 
+  .jumbotron h1, h2, p {
+    margin-left: 70px;
+  }
+
+  .fab, .fa {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+
+  .icons-for-large {
+    position: relative;
+    left: -1%;
+    top: -30%;
+  }
+
+}
+
+@media screen and (min-width: 1440px) {
+  .icons-for-large {
+    position: relative;
+    top: -22%;
+    left: -1%;
+  }
 }
