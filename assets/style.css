@@ -327,7 +327,7 @@ footer .fab, footer .fa {
   .jumbotron img {
     position: absolute;
     right: 0;
-    top: 53%;
+    top: 41%;
   }
 
   .jumbotron h2 {
@@ -343,14 +343,27 @@ footer .fab, footer .fa {
   }
 
   .about-me img {
-    left: 52.5%;
+    left: 51.4%;
   }
 
 }
 
 @media screen and (min-width: 992px) {
+  .navbar .navbar-brand, .navbar-nav .nav-item{
+   font-family: 'Inter', sans-serif;  
+  }
+
+  .navbar .navbar-brand {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+  }
+
   .navbar-nav .nav-link {
     border: 0;
+    font-size: 15px;
+    font-weight: 600px;
+    line-height: 20px;
   }
 
   .grid {
@@ -373,6 +386,10 @@ footer .fab, footer .fa {
     top: -30%;
   }
 
+}
+
+@media screen and (max-width: 1200px) {
+  
 }
 
 @media screen and (min-width: 1440px) {
