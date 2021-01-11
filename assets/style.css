@@ -2,15 +2,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Crete+Round&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter&family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins&display=swap');
+
 body {
   height: 100vh;
 }
+
 .crete-font {
   font-family: 'Crete Round', serif;
 }
 
 .inter-font {
-  font-family: 'Inter', sans-serif;  
+  font-family: 'Inter', sans-serif;
 }
 
 .navbar {
@@ -55,7 +57,7 @@ body {
 }
 
 .jumbotron h2 {
-  color:#fff5e1;
+  color: #fff5e1;
   font-family: 'Roboto', serif;
   font-weight: 700;
   font-size: 24px;
@@ -78,7 +80,8 @@ body {
   top: 180px;
 }
 
-.fab, .fa {
+.fab,
+.fa {
   color: #fff5e1;
   font-size: 30px;
   margin-right: 10px;
@@ -117,9 +120,8 @@ body {
   height: 300px;
   margin-left: 0;
   margin-right: 0;
-  background: linear-gradient(
-    rgba(0, 0, 0),
-    rgba(0, 0, 0));
+  background: linear-gradient(rgba(0, 0, 0),
+      rgba(0, 0, 0));
 }
 
 .lifestyle::before {
@@ -143,7 +145,8 @@ body {
   opacity: 0.5;
 }
 
-.box h1, .box p{
+.box h1,
+.box p {
   color: #fff;
   position: relative;
   top: 15%;
@@ -182,9 +185,8 @@ body {
   z-index: 1;
   margin-left: 5px;
   font-size: 15px;
-  background: linear-gradient(
-    rgba(192, 192, 192),
-    rgba(192, 192, 192, 0.24));
+  background: linear-gradient(rgba(192, 192, 192),
+      rgba(192, 192, 192, 0.24));
 }
 
 .show-skilss div::before {
@@ -193,7 +195,7 @@ body {
   background-color: silver;
 }
 
-.about-me{
+.about-me {
   margin-top: 20px;
   background-color: #1c1a19;
 }
@@ -256,12 +258,12 @@ body {
   vertical-align: center;
 }
 
-.about-grid .list1 img{
+.about-grid .list1 img {
   width: 25px;
   height: 25px;
 }
 
-.about-grid .list3 img{
+.about-grid .list3 img {
   width: 20px;
   height: 20px;
 }
@@ -276,7 +278,8 @@ body {
   font-weight: 700;
 }
 
-#contact h1,a {
+#contact h1,
+a {
   font-size: 20px;
   font-weight: 700;
 }
@@ -291,13 +294,22 @@ footer {
   padding-bottom: 10px;
 }
 
-footer .fab, footer .fa {
+footer .fab,
+footer .fa {
   color: #505f79;
   width: 14.17px;
   height: 20px;
   margin-right: 20px;
   margin-left: 20px;
   margin-top: 5px;
+}
+
+.jumbotron .header-image-large {
+  width: 600px;
+  height: 600px;
+  position: relative;
+  left: 50%;
+  top: -57%;
 }
 
 @media screen and (min-width: 320px) {
@@ -316,14 +328,14 @@ footer .fab, footer .fa {
   }
 }
 
- @media screen and (min-width: 425px) {
+@media screen and (min-width: 425px) {
   .about-me img {
     left: 14%;
   }
 }
 
 @media screen and (min-width: 768px) {
-  
+
   .jumbotron img {
     position: absolute;
     right: 0;
@@ -349,8 +361,10 @@ footer .fab, footer .fa {
 }
 
 @media screen and (min-width: 992px) {
-  .navbar .navbar-brand, .navbar-nav .nav-item{
-   font-family: 'Inter', sans-serif;  
+
+  .navbar .navbar-brand,
+  .navbar-nav .nav-item {
+    font-family: 'Inter', sans-serif;
   }
 
   .navbar .navbar-brand {
@@ -371,11 +385,14 @@ footer .fab, footer .fa {
     grid-template-columns: repeat(3, 1fr);
   }
 
-  .jumbotron h1, h2, p {
+  .jumbotron h1,
+  h2,
+  p {
     margin-left: 70px;
   }
 
-  .fab, .fa {
+  .fab,
+  .fa {
     margin-right: 20px;
     margin-left: 20px;
   }
@@ -386,10 +403,25 @@ footer .fab, footer .fa {
     top: -30%;
   }
 
+  .jumbotron .header-image-large {
+    left: 39%;
+    top: -58%;
+  }
+
 }
 
-@media screen and (max-width: 1200px) {
-  
+@media screen and (min-width: 1024px) {
+  .jumbotron .header-image-large {
+    left: 40%;
+    top: -58%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .jumbotron .header-image-large {
+    left: 51%;
+    top: -58%;
+  }
 }
 
 @media screen and (min-width: 1440px) {
@@ -397,5 +429,10 @@ footer .fab, footer .fa {
     position: relative;
     top: -22%;
     left: -1%;
+  }
+
+  .jumbotron .header-image-large {
+    left: 58%;
+    top: -58%;
   }
 }
