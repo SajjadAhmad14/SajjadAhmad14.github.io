@@ -284,6 +284,10 @@ a {
   font-weight: 700;
 }
 
+#contact a {
+  color: #ff6b00;
+}
+
 footer {
   display: flex;
   justify-content: center;
@@ -321,12 +325,11 @@ footer .fa {
   margin-left: 22px;
 }
 
-.about-me .about-image-large {
-  width: 300px;
-  height: 300px;
+.about-me .about-image-large{
+  width: 450px;
+  height: 450px;
   position: relative;
-  right: 0;
-  left: 75%;
+  left: 63%;
 }
 
 @media screen and (min-width: 320px) {
@@ -429,6 +432,27 @@ footer .fa {
     margin-bottom: -450px;
   }
 
+  .about-me {
+    padding-bottom: 100px;
+  }
+
+  .about-me .about-image-large{
+    left: 54%;
+  }
+
+  .about-grid {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    margin-top: 100px;
+  }
+
+  footer {
+    border-bottom: none;
+    margin-top: 10px;
+  }
+
 }
 
 @media screen and (min-width: 1024px) {
@@ -441,6 +465,26 @@ footer .fa {
   .about-me .show-resume {
     margin-bottom: -450px;
   }
+
+
+  .about-me {
+    padding-bottom: 100px;
+  }
+
+
+  .about-grid {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    margin-top: 100px;
+  }
+
+
+  footer {
+    border-bottom: none;
+    margin-top: 10px;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -452,6 +496,29 @@ footer .fa {
 
   .about-me .show-resume {
     margin-bottom: -450px;
+  }
+
+
+  .about-me {
+    padding-bottom: 100px;
+  }
+
+  .about-me .about-image-large{
+    left: 62%;
+  }
+
+  .about-grid {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    margin-top: 100px;
+  }
+
+
+  footer {
+    border-bottom: none;
+    margin-top: 10px;
   }
 }
 
@@ -467,8 +534,30 @@ footer .fa {
     top: -58%;
   }
 
-
   .about-me .show-resume {
     margin-bottom: -450px;
+  }
+
+
+  .about-me {
+    padding-bottom: 100px;
+  }
+
+  .about-me .about-image-large{
+    left: 67%;
+  }
+
+  .about-grid {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    margin-top: 100px;
+  }
+  
+
+  footer {
+    border-bottom: none;
+    margin-top: 10px;
   }
 }
