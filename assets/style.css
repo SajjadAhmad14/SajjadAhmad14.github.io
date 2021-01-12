@@ -411,6 +411,11 @@ footer .fa {
     margin-left: 70px;
   }
 
+  .box h1,
+  p {
+    margin-left: 0;
+  }
+
   .fab,
   .fa {
     margin-right: 20px;
