@@ -430,7 +430,7 @@ footer .fa {
 
   .jumbotron .header-image-large {
     left: 39%;
-    top: -80%;
+    top: -60%;
   }
 
   .about-me .show-resume {
@@ -467,7 +467,7 @@ footer .fa {
 @media screen and (min-width: 1024px) {
   .jumbotron .header-image-large {
     left: 40%;
-    top: -60%;
+    top: -55%;
   }
 
 
@@ -499,7 +499,7 @@ footer .fa {
 @media screen and (min-width: 1200px) {
   .jumbotron .header-image-large {
     left: 51%;
-    top: -79%;
+    top: -60%;
   }
  
 
@@ -540,7 +540,7 @@ footer .fa {
 
   .jumbotron .header-image-large {
     left: 58%;
-    top: -70%;
+    top: -60%;
   }
 
   .about-me .show-resume {
