@@ -38,11 +38,20 @@ body {
   border-bottom: 2px solid #fff5e1;
 }
 
-.jumbotron {
-  background-image: url("assets/images/35504149.jpeg");
-  background-size: cover;
+.jumbo-large {
+  background-image: url("./images/Illustration-header@2x.png");
+  background-size: 480px;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: right center;
+  margin-bottom: 0;
+  background-color: #1C1A19;
+}
+
+.jumbo-mobile {
+  background-image: url("./images/illustration-header-mobile.png");
+  background-size: 220px;
+  background-repeat: no-repeat;
+  background-position: 100% 0%;
   margin-bottom: 0;
   background-color: #1C1A19;
 }
@@ -71,13 +80,6 @@ body {
   font-size: 16px;
   line-height: 24px;
   height: 100vh;
-
-}
-
-.jumbotron img {
-  position: absolute;
-  right: 0;
-  top: 180px;
 }
 
 .fab,
@@ -317,14 +319,6 @@ footer .fa {
   margin-top: 5px;
 }
 
-.jumbotron .header-image-large {
-  width: 600px;
-  height: 600px;
-  position: relative;
-  left: 50%;
-  top: -57%;
-}
-
 .jumb-p-large {
   margin-right: 492px;
 }
@@ -364,12 +358,6 @@ footer .fa {
 }
 
 @media screen and (min-width: 768px) {
-
-  .jumbotron img {
-    position: absolute;
-    right: 0;
-    top: 41%;
-  }
 
   .jumbotron h2 {
     margin-top: 20px;
@@ -432,11 +420,6 @@ footer .fa {
     top: -30%;
   }
 
-  .jumbotron .header-image-large {
-    left: 39%;
-    top: -60%;
-  }
-
   .about-me .show-resume {
     margin-bottom: -450px;
   }
@@ -469,21 +452,13 @@ footer .fa {
 }
 
 @media screen and (min-width: 1024px) {
-  .jumbotron .header-image-large {
-    left: 40%;
-    top: -55%;
-  }
-
-
   .about-me .show-resume {
     margin-bottom: -450px;
   }
 
-
   .about-me {
     padding-bottom: 100px;
   }
-
 
   .about-grid {
     display: grid;
@@ -501,16 +476,10 @@ footer .fa {
 }
 
 @media screen and (min-width: 1200px) {
-  .jumbotron .header-image-large {
-    left: 51%;
-    top: -60%;
-  }
- 
 
   .about-me .show-resume {
     margin-bottom: -450px;
   }
-
 
   .about-me {
     padding-bottom: 100px;
@@ -540,11 +509,6 @@ footer .fa {
     position: relative;
     top: -22%;
     left: -1%;
-  }
-
-  .jumbotron .header-image-large {
-    left: 58%;
-    top: -60%;
   }
 
   .about-me .show-resume {
