@@ -132,6 +132,10 @@ body {
   background-image: url('./images/githack.com (1).jpg');
 }
 
+.newsweek::before {
+  background-image: url('./images/newsweek.jpg');
+}
+
 .box::before {
   position: absolute;
   content: '';
@@ -407,7 +411,7 @@ footer .fa {
 
   .grid {
     grid-template-rows: auto;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
 
   .jumbotron h1,
@@ -453,7 +457,7 @@ footer .fa {
     margin-top: 100px;
   }
 
-  .lifestyle p, .school p {
+  .lifestyle p, .school p, .newsweek p {
     margin-left: 0;
   }
 
