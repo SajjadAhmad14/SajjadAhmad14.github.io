@@ -38,11 +38,20 @@ body {
   border-bottom: 2px solid #fff5e1;
 }
 
-.jumbotron {
-  background-image: url("assets/images/35504149.jpeg");
-  background-size: cover;
+.jumbo-large {
+  background-image: url("./images/Illustration-header@2x.png");
+  background-size: 480px;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: right center;
+  margin-bottom: 0;
+  background-color: #1C1A19;
+}
+
+.jumbo-mobile {
+  background-image: url("./images/illustration-header-mobile.png");
+  background-size: 220px;
+  background-repeat: no-repeat;
+  background-position: 100% 0%;
   margin-bottom: 0;
   background-color: #1C1A19;
 }
@@ -71,13 +80,6 @@ body {
   font-size: 16px;
   line-height: 24px;
   height: 100vh;
-
-}
-
-.jumbotron img {
-  position: absolute;
-  right: 0;
-  top: 180px;
 }
 
 .fab,
@@ -130,6 +132,10 @@ body {
 
 .school::before {
   background-image: url('./images/githack.com (1).jpg');
+}
+
+.newsweek::before {
+  background-image: url('./images/newsweek.jpg');
 }
 
 .box::before {
@@ -200,7 +206,20 @@ body {
   background-color: silver;
 }
 
-.about-me {
+.about-me-lg {
+  background-image: url("./images/illustration-aboutme2@2x.png");
+  background-size: 480px;
+  background-repeat: no-repeat;
+  background-position: 100% 8%;
+  margin-top: 20px;
+  background-color: #1c1a19;
+}
+
+.about-me-sm {
+  background-image: url("./images/illustration-aboutme@2x.png");
+  background-size: 200px;
+  background-repeat: no-repeat;
+  background-position: 100% 22%;
   margin-top: 20px;
   background-color: #1c1a19;
 }
@@ -226,12 +245,9 @@ body {
   line-height: 27px;
 }
 
-.about-me img {
-  width: 200px;
-  height: 200px;
-  position: relative;
-  right: 0;
-  left: 14%;
+.show-resume a{
+  color: #fff;
+  text-decoration: none;
 }
 
 .about-grid {
@@ -241,7 +257,8 @@ body {
   grid-gap: 10px;
   color: #fff;
   border-top: 1px solid #c0c0c0;
-  padding-top: 80px;
+  margin-top: 285px;
+  padding-top: 100px;
 }
 
 .about-grid .list-head {
@@ -313,14 +330,6 @@ footer .fa {
   margin-top: 5px;
 }
 
-.jumbotron .header-image-large {
-  width: 600px;
-  height: 600px;
-  position: relative;
-  left: 50%;
-  top: -57%;
-}
-
 .jumb-p-large {
   margin-right: 492px;
 }
@@ -330,42 +339,7 @@ footer .fa {
   margin-left: 22px;
 }
 
-.about-me .about-image-large{
-  width: 450px;
-  height: 450px;
-  position: relative;
-  left: 63%;
-}
-
-@media screen and (min-width: 320px) {
-  .about-me img {
-    left: 34.5%;
-  }
-}
-
-@media screen and (min-width: 375px) {
-  .about-me img {
-    left: 2.5%;
-  }
-
-  .about-me .show-resume {
-    margin-top: -300px;
-  }
-}
-
-@media screen and (min-width: 425px) {
-  .about-me img {
-    left: 14%;
-  }
-}
-
 @media screen and (min-width: 768px) {
-
-  .jumbotron img {
-    position: absolute;
-    right: 0;
-    top: 41%;
-  }
 
   .jumbotron h2 {
     margin-top: 20px;
@@ -378,11 +352,6 @@ footer .fa {
   .header-icons {
     margin-top: 20px;
   }
-
-  .about-me img {
-    left: 51.4%;
-  }
-
 }
 
 @media screen and (min-width: 992px) {
@@ -407,7 +376,7 @@ footer .fa {
 
   .grid {
     grid-template-rows: auto;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
 
   .jumbotron h1,
@@ -428,15 +397,6 @@ footer .fa {
     top: -30%;
   }
 
-  .jumbotron .header-image-large {
-    left: 39%;
-    top: -60%;
-  }
-
-  .about-me .show-resume {
-    margin-bottom: -450px;
-  }
-
   .about-me {
     padding-bottom: 100px;
   }
@@ -453,7 +413,7 @@ footer .fa {
     margin-top: 100px;
   }
 
-  .lifestyle p, .school p {
+  .lifestyle p, .school p, .newsweek p {
     margin-left: 0;
   }
 
@@ -465,21 +425,10 @@ footer .fa {
 }
 
 @media screen and (min-width: 1024px) {
-  .jumbotron .header-image-large {
-    left: 40%;
-    top: -55%;
-  }
-
-
-  .about-me .show-resume {
-    margin-bottom: -450px;
-  }
-
-
+  
   .about-me {
     padding-bottom: 100px;
   }
-
 
   .about-grid {
     display: grid;
@@ -497,16 +446,6 @@ footer .fa {
 }
 
 @media screen and (min-width: 1200px) {
-  .jumbotron .header-image-large {
-    left: 51%;
-    top: -60%;
-  }
- 
-
-  .about-me .show-resume {
-    margin-bottom: -450px;
-  }
-
 
   .about-me {
     padding-bottom: 100px;
@@ -537,16 +476,6 @@ footer .fa {
     top: -22%;
     left: -1%;
   }
-
-  .jumbotron .header-image-large {
-    left: 58%;
-    top: -60%;
-  }
-
-  .about-me .show-resume {
-    margin-bottom: -450px;
-  }
-
 
   .about-me {
     padding-bottom: 100px;
